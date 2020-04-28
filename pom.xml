@@ -26,11 +26,12 @@
 
   <properties>
     <jkube.mode>kubernetes</jkube.mode>
-    <jkube.version>1.0.0-alpha-2</jkube.version>
+    <jkube.version>1.0.0-SNAPSHOT</jkube.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <wildfly.version>2.1.0.Beta1</wildfly.version>
+    <jkube.enricher.jkube-service.type>NodePort</jkube.enricher.jkube-service.type>
   </properties>
 
   <build>
@@ -80,21 +81,4 @@
       </build>
     </profile>
   </profiles>
-  <dependencies>
-    <dependency>
-      <groupId>io.fabric8</groupId>
-      <artifactId>fabric8-arquillian</artifactId>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>io.fabric8</groupId>
-        <artifactId>fabric8-arquillian</artifactId>
-        <version>2.2.158</version>
-        <scope>test</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 </project>
