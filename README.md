@@ -114,8 +114,9 @@ Or you can also use `minikube service`:
 🎉  Opening service default/jkube-maven-sample-webapp-wildfly in default browser...
 
 ```
-[Wildfly Running](https://i.imgur.com/A6Tw2h2.png)
-[Application Running](https://imgur.com/c2eITmW)
+
+![Wildfly Running](https://i.imgur.com/A6Tw2h2.png)
+![Application Running](https://i.imgur.com/c2eITmW.png)
 
 
 
